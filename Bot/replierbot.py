@@ -69,7 +69,3 @@ if __name__ == '__main__':
 
 
 
-# fix multiple replies issue
-# ffind how to set eliza pairs
-
-
