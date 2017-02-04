@@ -7,7 +7,7 @@ from tweepy import API
 #from nltk.chat import zen
 import Bot.chatter as zen
 import json
-from Bot.config import ACCESS_SECRET, ACCESS_TOKEN, CONSUMER_KEY, CONSUMER_SECRET
+from Bot.config import ACCESS_SECRET, ACCESS_TOKEN, CONSUMER_KEY, CONSUMER_SECRET, account_screen_name, account_user_id
 
 
 consumer_key = CONSUMER_KEY
@@ -15,8 +15,6 @@ consumer_secret = CONSUMER_SECRET
 access_token = ACCESS_TOKEN
 access_token_secret = ACCESS_SECRET
 #stream_rule = config.get('app', 'rule')
-account_screen_name = "rushlyricbot"
-account_user_id = "827017181879635969"
 
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
